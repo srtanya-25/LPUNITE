@@ -1,0 +1,407 @@
+/* Font */
+/* Importing the Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* Body Styles */
+body {
+    margin: 0; /* Resetting default margin */
+    background-color: rgb(148, 140, 140); /* Setting background color to black */
+    color: #d91d1d; /* Setting text color to a shade of red */
+    font-family: 'Poppins', sans-serif; /* Applying Poppins font */
+    font-size: 12px; /* Setting base font size to 12 pixels */
+}
+
+/* Header Styles */
+header {
+  position: fixed;
+  top: 0;
+  left: -20px;
+  width: 100%; /* Modified to cover 100% of the screen */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: padding 0.6s;
+  padding: 40px ; /* Adjusted for better spacing */
+  z-index: 100000;
+}
+
+header.sticky {
+  padding: 20px 5%; /* Adjusted for better spacing */
+  background: #fff;
+}
+
+header .logo {
+  margin-left: 70px;
+  position: relative;
+  font-weight: 700;
+  color: magenta;
+  text-decoration: none;
+  font-size: 2em;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  transition: color 0.6s;
+  margin-right: auto;
+}
+
+header ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+header ul li a {
+  margin-left: 10px;
+  margin-right: 80px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 2px;
+  font-weight: 500;
+  transition: color 0.6s;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+/* Image Slider Styles */
+.slider {
+    width: 1300px; /* Setting width for the slider */
+    max-width: 100vw; /* Setting maximum width to viewport width */
+    height: 300px; /* Setting height for the slider */
+    margin: 100px auto 0; /* Adding top margin to prevent overlap with header */
+    position: relative; /* Setting position to relative */
+    overflow: hidden; /* Hiding overflowing content */
+}
+
+/* Slider List Styles */
+.slider .list {
+    position: absolute; /* Setting position to absolute */
+    width: max-content; /* Setting width to fit content */
+    height: 100%; /* Setting height to 100% */
+    left: 0; /* Aligning to the left */
+    top: 0; /* Aligning to the top */
+    display: flex; /* Using flexbox for layout */
+    transition: 1s; /* Adding transition effect */
+}
+
+/* Slider Image Styles */
+.slider .list img {
+    width: 1300px; /* Setting width for images */
+    max-width: 100vw; /* Setting maximum width to viewport width */
+    height: 300px; /* Setting height to 100% */
+    object-fit: cover; /* Scaling images to cover */
+}
+
+/* Slider Navigation Button Styles */
+.slider .buttons {
+    position: absolute; /* Setting position to absolute */
+    top: 45%; /* Placing buttons at 45% from the top */
+    left: 5%; /* Placing buttons 5% from the left */
+    width: 90%; /* Setting width to 90% */
+    display: flex; /* Using flexbox for layout */
+    justify-content: space-between; /* Distributing items evenly */
+}
+
+/* Individual Slider Navigation Button Styles */
+.slider .buttons button {
+    width: 50px; /* Setting width for buttons */
+    height: 50px; /* Setting height for buttons */
+    border-radius: 50%; /* Making buttons circular */
+    background-color: #fff5; /* Setting background color */
+    color: #fff; /* Setting text color */
+    border: none; /* Removing border */
+    font-family: monospace; /* Applying monospace font */
+    font-weight: bold; /* Setting font weight to bold */
+}
+
+/* Slider Pagination Dot Styles */
+.slider .dots {
+    position: absolute; /* Setting position to absolute */
+    bottom: 10px; /* Placing dots 10px from the bottom */
+    left: 0; /* Aligning dots to the left */
+    color: #fff; /* Setting text color */
+    width: 100%; /* Setting width to 100% */
+    margin: 0; /* Resetting margin */
+    padding: 0; /* Resetting padding */
+    display: flex; /* Using flexbox for layout */
+    justify-content: center; /* Centering items horizontally */
+}
+
+/* Individual Slider Pagination Dot Styles */
+.slider .dots li {
+    list-style: none; /* Removing list-style */
+    width: 10px; /* Setting width for dots */
+    height: 10px; /* Setting height for dots */
+    background-color: #fff; /* Setting background color */
+    margin: 10px; /* Adding margin for spacing */
+    border-radius: 20px; /* Making dots circular */
+    transition: 0.5s; /* Adding transition effect */
+}
+
+/* Active Slider Pagination Dot Styles */
+.slider .dots li.active {
+    width: 30px; /* Adjusting width for active dot */
+}
+
+/* Responsive Styles for Slider */
+@media screen and (max-width: 768px) {
+    .slider {
+        height: 400px; /* Adjusting height for smaller screens */
+    }
+}
+
+/* <!-- Genre selection --> */
+
+.genre-button {
+  background-color: #e0e5ec;
+  position: relative;
+  border: none;
+  box-shadow: 9px 9px 16px rgb(163,177,198,0.6), -9px -9px 16px rgba(255,255,255,0.5);
+  height: 50px;
+  width: 150px;
+  margin-left: 118px;
+  /* margin-bottom: 48px; */
+  margin-right: 10px;
+  margin-top: 80px;
+  overflow: hidden;
+  outline: none;  
+  border-radius: 16px;       
+  gap: 50px;    
+}
+
+.genre-button:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 200%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-100%);
+  background: rgba(255, 255, 255, 0.13);
+  background: linear-gradient(
+      to right, 
+      rgba(255,255,255, 0.13) 0%,
+      rgba(255,255,255, 0.13) 77%,
+      rgba(255,255,255, 0.5) 92%,
+      rgba(255,255,255, 0.3) 100%
+  );
+}
+
+.genre-button:hover:after {
+  opacity: 1;
+  top: 0;
+  left: 0;
+  transform: translateX(0);
+  transition-property: transform, opacity;
+  transition-duration: 0.7s, 0.15s;
+  transition-timing-function: ease;
+  outline: none;
+}
+
+.genre-button:active:hover {
+  opacity: 0;
+}
+
+.genre-button .fab {
+  color: rgb(78,78,78);
+  font-size: 40px;
+}
+
+/* cards */
+
+.containerofbox {
+  width: 90%; /* Adjusted to cover 90% of the screen */
+  max-width: 1280px; /* Added max-width for better responsiveness */
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 300px;
+  gap: 10px;
+  border-radius: 20px;
+  margin-left: 200px;
+  margin-right: auto;
+  margin-top: 80px;
+}
+
+
+.card {
+  width: 180px;
+  height: 250px;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  border-radius: 10px;
+  background-image: url('https://images.unsplash.com/photo-1557672199-6e8c8b2b8fff?ixlib=rb-1.2.1&auto=format&fit=crop&w=934&q=80');
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5);
+  position: relative; /* Added to contain .glow */
+}
+
+.card:hover {
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.4);
+}
+
+.card .glow {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  background-image: radial-gradient(circle at center, rgba(255, 255, 255, 0.2), rgba(0, 0, 0, 0.1));
+}
+
+/* footer */
+
+footer {
+  margin-top: 80px;
+  position: relative;
+  width: 90%; /* Modified to cover 100% of the screen*/
+  padding: 50px 5%; /*Adjusted for better spacing */
+  background: #332828; 
+  height: 120px;
+}
+
+footer .container {
+  width: 90%; /* Adjusted to cover 90% of the screen */
+  max-width: 1300px; /* Added max-width for better responsiveness */
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 2fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+}
+
+footer.container .sec h2 {
+  position: relative;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+footer.container .sec p {
+  color: #555;
+}
+
+footer.container .sci {
+  margin-top: 10px;
+  display:flex;
+  grid-template-columns: repeat(4, 50px);
+}
+footer .container .sci .fa-facebook-f {
+ padding-right: 10px;
+ font-size: 30px;
+ margin-left: -42px;
+}
+
+footer .container .sci .fa-twitter {
+ padding-right: 10px;
+ font-size: 30px;
+}
+
+footer .container .sci .fa-instagram {
+ padding-right: 10px;
+ font-size: 30px;
+}
+
+footer .container .sci .fa-youtube {
+ padding-right: 10px;
+ font-size: 30px;
+}
+
+
+footer .container .sci li {
+  list-style: none;
+}
+
+footer .container .sci li a {
+  display: inline-block;
+  width: 360px;
+  height: 36px;
+  background: #333;
+  display: grid;
+  align-content: center;
+  justify-content: center;
+  text-decoration: none;
+}
+
+footer .container .sci li a i {
+  color: #fff;
+  font-size: 20px;
+}
+
+footer .container .quicklinks {
+  position: relative;
+}
+
+footer .container .quicklinks ul li {
+  list-style: none;
+}
+
+footer .container .quicklinks ul li a {
+  color: #555;
+  text-decoration: none;
+  margin-bottom: 10px;
+  display: inline-block;
+  margin-left: -39px;
+}
+
+footer .container .contact .info {
+  position: relative;
+}
+
+footer .container .contact .info li {
+  display: grid;
+  grid-template-columns: 30px 1fr;
+  margin-bottom: 10px;
+  margin-left: -37px;
+}
+
+footer .container .contact .info li span {
+  color: #555;
+  font-size: 20px;
+}
+
+footer .container .contact .info li a {
+  color: #555;
+  text-decoration: none;
+}
+
+.copyrightText {
+  width: 1366px; /* Adjusted to cover 90% of the screen */
+  background: #fff;
+  padding: 10px 5% 30px; /* Adjusted for better spacing */
+  text-align: center;
+  color: #555;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  height: 10px;
+}
+
+@media (max-width: 991px) {
+  footer {
+      padding: 40px 5%; /* Adjusted for better spacing */
+  }
+
+  footer .container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+  }
+
+  .copyrightText {
+      padding: 20px 5% 30px; /* Adjusted for better spacing */
+  }
+}
+
+@media (max-width: 768px) {
+  footer .container {
+      width: 100%;
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-gap: 20px;
+  }
+}

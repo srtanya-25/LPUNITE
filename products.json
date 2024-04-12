@@ -1,0 +1,143 @@
+[
+    {
+        "id": 1,
+        "name": "TECH FEST",
+        "price": 580,
+        "image": "Screenshot 2024-03-11 190431.png",
+        "description": "TECH FEST MINERVA takes place on February 10, 2024, 9:30 AM - 4:30 PM at IIT Madras Research Park, Chennai. Register now!"
+    },
+    {
+        "id": 2,
+        "name": "BHARATEX EXHIBITION",
+        "price": 290,
+        "image": "Screenshot 2024-03-11 190509.png",
+        "description": "BharatTex 2024: The World's Biggest Textile Event in India. February 26-29, 2024 at Bombay Exhibition Centre, Mumbai."
+    },
+    {
+        "id": 3,
+        "name": "HACKATHON",
+        "price": 330,
+        "image": "Screenshot 2024-03-11 190803.png",
+        "description": "Pillai HOC College of Engineering and Technology's Hackathon: 3-day national level event with a prize pool of over 1 lakh! March 14-16, 2024 at the college campus."
+    },
+    {
+        "id": 4,
+        "name": "MECH ENGG CONFERENCE",
+        "price": 200,
+        "image": "Screenshot 2024-03-11 185132.png",
+        "description": "International Conference on Advances in Mechanical Engineering (ICAME 2023) takes place on December 18-20, 2023 at SRM Institute of Science and Technology, Chennai."
+    },
+    {
+        "id": 5,
+        "name": "FOOD PLAINT-BASED FACILITATOR",
+        "price": 650,
+        "image": "Screenshot 2024-03-11 022016.png",
+        "description": "Become a WFPB diet ambassador! SHARAN's Whole Food Plant-Based Facilitator Training Program runs online Jan 18th - Feb 1st, 2024. Apply now!"
+    },
+    {
+        "id": 6,
+        "name": "HORTICULTURE FAIR",
+        "price": 380,
+        "image": "Screenshot 2024-03-11 022047.png",
+        "description": "Don't miss the National Horticulture Fair 2024! See the latest trends in sustainable horticulture on March 5-7, 2024, at ICAR-Indian Institute of Horticultural Research, Bengaluru."
+    },
+    {
+        "id": 7,
+        "name": "FOOD EXHIBITION",
+        "price": 720,
+        "image": "Screenshot 2024-03-11 022202.png",
+        "description": "Join India Food 2024! Immerse yourself in a world of flavors, innovation, and networking on March 5-7, 2024 at Bangalore International Exhibition Centre."
+    },
+    {
+        "id": 8,
+        "name": "PLANT-BASED LIFESTYLE WORKSHOP",
+        "price": 560,
+        "image": "Screenshot 2024-03-11 022240.png",
+        "description": "SHARAN's customized plant-based lifestyle workshops - Learn the secrets to a healthier, more sustainable future. Contact us today!"
+    },
+    {
+        "id": 9,
+        "name": "Sports Event",
+        "price": 765,
+        "image": "Screenshot 2024-04-01 022833.png",
+        "description": " Don't miss the exciting sporting event happening on December 12th, 2024 at Sport Hall!"
+    },
+    {
+        "id": 10,
+        "name": "Tournament",
+        "price": 342,
+        "image": "Screenshot 2024-04-01 022521.png",
+        "description": " Join the Your Place Name Soccer Tournament for $15 entry fee, kick-off at 4 PM on August 15th!"
+    },
+    {
+        "id": 11,
+        "name": "marathon",
+        "price": 466,
+        "image": "Screenshot 2024-04-01 022541.png",
+        "description": "Participate in the Any City Marathon on Sunday, August 27th, starting at 7:30 AM at 123 Anywhere St.! It features a half marathon, 10K run, and 5K fun run"
+    },
+    {
+        "id":12,
+        "name": "Sports Event",
+        "price":789,
+        "image": "Screenshot 2024-04-01 022558.png",
+        "description": "Get fit for free at Your Fitness Present happening at River Park "
+    },
+    {
+        "id": 13,
+        "name": "Kali",
+        "price": 356,
+        "image": "Screenshot 2024-03-11 003244.png",
+        "description": "exhibtion  of Kali's artwork,“Reverence” and Mon, 11 Mar onwards"
+    },
+    {
+        "id": 14,
+        "name": "Art Cafe",
+        "price": 789,
+        "image": "Screenshot 2024-03-11 003256.png",
+        "description": "Unleash your creativity and enjoy a cup of coffee at Art Cafe."
+    },
+    {
+        "id": 15,
+        "name": "ART GALLERY",
+        "price": 350,
+        "image": "Screenshot 2024-03-11 003256.png",
+        "description": "Unleash your inner artist over a cup of coffee! ArtLife Gallery's ARTCafe lets you create your masterpiece while enjoying a relaxing atmosphere.  It starts Monday, March 11th onwards - sign up and sip your way to creativity!"
+    },
+    {
+        "id": 16,
+        "name": "12TH EDITION- INDIAN ART FESTIVAL",
+        "price": 400,
+        "image": "Screenshot 2024-03-11 003056.png",
+        "description": "The event is the 12th Edition of the India Art Festival. It takes place from February 8th to 11th, 2024, from 11 AM to 8 PM daily at the Nehru Centre in Worli, Mumbai.  This event showcases works from 45 galleries and 550 artists."
+    },
+    {
+        "id": 17,
+        "name": "SAMARPAN-A INDIAN CLASSICAL DANCE",
+        "price": 350,
+        "image": "Screenshot 2024-03-11 001938.png",
+        "description": "Celebrate the 11th edition of Samarpan, a tribute to Indian classical dance. Enjoy performances by renowned artists Medha Hari, Avijit Das, Annapurna Rithesh, and more. The event will be held on February 10th and 11th, 2024, at 5:45 PM onwards at Don Bosco Hall, Mangaluru."
+    },
+    {
+        "id": 18,
+        "name": "ED SHEERAN CONCERT- + - = ÷ x TOUR",
+        "price": 750,
+        "image": "Screenshot 2024-03-11 002920.png",
+        "description": "Ed Sheeran is performing in Mumbai, India as part of his + - = ÷ x Tour. The concert will be held on Saturday, March 16th, 2024 at 7:15 pm at the Mahalaxmi Racecourse. The concert starts at 3 pm with a performance by Prateek Kuhad, followed by special guest Calum Scott."
+    },
+    {
+        "id": 19,
+        "name": "THE AMYRA DANCE ACADEMY'S CULTURAL FESTIVAL",
+        "price": 500,
+        "image": "Screenshot 2024-04-01 023326.png",
+        "description": "Celebrate the rich tapestry of Indian culture! The AM RA Dance Academy's National Art & Cultural Festival showcases classical dance, music, art, acrobatics and more.  It's happening on Sunday, January 14th, 2024 at 4 PM at Lajpat Bhawan Auditorium in Delhi - don't miss it!"
+    },
+    {
+        "id": 20,
+        "name": "JANFEST-A MUSIC FEST",
+        "price": 200,
+        "image": "Screenshot 2024-03-11 002510.png",
+        "description": "Experience a diverse blend of music at Janfest 2024, presented by the Indian Music Group.  The festival will be held January 25th to 27th at the IMC Auditorium in Ottawa, Canada."
+    }
+    
+]
